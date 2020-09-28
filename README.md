@@ -1,3 +1,3 @@
 # Data-Structures-and-Algorithms - Java
 
-Programming in Java for beginners
+Programs in Java for beginners
