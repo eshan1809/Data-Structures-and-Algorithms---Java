@@ -1,3 +1,3 @@
 # Data-Structures-and-Algorithms - Java
 
-Programs in Java for beginners
+Programs for improving Data Structures and Algorithms Skills in Java for beginners
