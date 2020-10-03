@@ -11,15 +11,13 @@ public class Main {
             arr[i] = scn.nextInt();
         }
         int f = scn.nextInt();
-        System.out.println(lastIndex(arr,f));
+        System.out.println(lastIndex(arr, n-1, f));
     }
 
-    public static int lastIndex(int[] arr, int x){
-        for(int i=arr.length-1;i>=0;i--){
-            if(arr[i] == x){
-                return i;
-            }
+    public static int lastIndex(int[] arr, int idx, int x){
+        if(arr[idx]==x){
+            return idx;
         }
-        return -1;
+        return lastIndex(arr,idx-1,x);
     }
 }
