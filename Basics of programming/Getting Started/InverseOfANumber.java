@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class InverseOfANumber {
     public static void main(String[] args) throws IOException {
         // write your code here
         Scanner scn = new Scanner(System.in);
